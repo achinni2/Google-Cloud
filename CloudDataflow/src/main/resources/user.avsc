@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "name": "Player",
+  "fields": [{
+    "name": "Player_Id",
+    "type": "string"
+  }, {
+    "name": "Player_Name",
+    "type": "string"
+  }, {
+    "name": "DOB",
+    "type": "string"
+  },{
+    "name": "Batting_Hand",
+    "type": "string"
+  },{
+    "name": "Bowling_Skill",
+    "type": "string"
+  },{
+    "name": "Country",
+    "type": "string"
+  },{
+    "name": "Is_Umpire",
+    "type": "string"
+  }]
+}
