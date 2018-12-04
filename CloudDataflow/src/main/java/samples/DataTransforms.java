@@ -28,7 +28,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Sample transformations on PCollections like converting csv files to avro.
- * Tranformations on PCollections of Generic avro records.
+ * Transformations on PCollections of Generic avro records.
  */
 public class DataTransforms {
 
@@ -138,7 +138,7 @@ public class DataTransforms {
     public static void main(String[] args) throws IOException, IllegalArgumentException {
         // Create and set your PipelineOptions.
         SampleOptions options = TestPipeline.testingPipelineOptions().as(SampleOptions.class);
-        options.setAvroSchema("user.avsc");
+        options.setAvroSchema("resources/user.avsc");
         options.setInputFile("gs://my-test-data-abhishek-1/sample/Player.csv");
         options.setOutput("gs://my-test-data-abhishek-1/sample/Player");
 
